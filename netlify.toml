@@ -1,2 +1,6 @@
 [build.environment]
   NPM_FLAGS="--version"
+
+[build]
+#    publish = ".dist"
+    command = "npm install --save-dev @types/node && pnpm run build"
