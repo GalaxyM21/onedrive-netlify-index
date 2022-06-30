@@ -3,4 +3,4 @@
 
 [build]
 #    publish = ".dist"
-    command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
+    command = "pnpm run build || ( npm install pnpm && pnpm run build )"
