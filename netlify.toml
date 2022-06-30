@@ -3,4 +3,4 @@
   NPM_CONFIG_LEGACY_PEER_DEPS = "true"
 [build]
 #    publish = ".dist"
-    command = "npm install pnpm && pnpm run build"
+    command = "npm i react-copy-to-clipboard && npm install pnpm && pnpm run build"
