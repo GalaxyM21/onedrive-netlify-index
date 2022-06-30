@@ -3,4 +3,4 @@
 
 [build]
 #    publish = ".dist"
-    command = "npm install --save-dev @types/node && pnpm run build"
+    command = "npm install --save-dev @types/node && npm run build"
